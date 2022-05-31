@@ -5,10 +5,3 @@ version = 3
 [[package]]
 name = "proc-macros"
 version = "0.1.0"
-
-[[package]]
-name = "rust-macroses"
-version = "0.1.0"
-dependencies = [
- "proc-macros",
-]
