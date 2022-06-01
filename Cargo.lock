@@ -16,6 +16,15 @@ name = "proc-macros"
 version = "0.1.0"
 dependencies = [
  "proc-macro2",
+ "proc-macros-impl",
+ "quote",
+]
+
+[[package]]
+name = "proc-macros-impl"
+version = "0.1.0"
+dependencies = [
+ "proc-macro2",
  "quote",
 ]
 
